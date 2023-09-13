@@ -1,4 +1,4 @@
-import "bulma/css/bulma.css";
+import { CartWidget } from "../CartWidget/CartWidget";
 
 const NavBar = () => {
     return (
@@ -7,6 +7,7 @@ const NavBar = () => {
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Galeria</a></li>
                 <li><a href="#">Contacto</a></li>
+                <CartWidget/>
             </ul>
         </nav>
     )
